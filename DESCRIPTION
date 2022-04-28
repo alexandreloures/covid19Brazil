@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Alexandre Loures
 Maintainer: Alexandre Loures <arloures@protonmail.com>
 Description: Dataset with strategic information about COVID-19 in Brazil.
-    Data for municipalities, states, macro-regions and Brazil. Data source:
+    Data for municipalities, states, region and Brazil. Data source:
     Sistema Único de Saúde - SUS.
 License: MIT + file LICENSE
 Encoding: UTF-8
