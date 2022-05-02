@@ -15,21 +15,21 @@ update_data <- function() {
   total_current <- covid19brazil::brazil_total
   region_current <- covid19brazil::brazil_region
   state_current <- covid19brazil::brazil_state
-  city_current <- covid19brazil::brazil_city
+  municipality_current <- covid19brazil::brazil_municipality
 
   total_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_total.csv',
                                                locale = readr::locale(encoding = "ASCII")))
 
 
-  region_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/region_total.csv',
+  region_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_region.csv',
                                                 locale = readr::locale(encoding = "ASCII")))
 
 
-  state_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/state_total.csv',
+  state_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_state.csv',
                                                locale = readr::locale(encoding = "ASCII")))
 
 
-  city_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_city.csv',
+  municipality_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_municipality.csv',
                                               locale = readr::locale (encoding = 'ASCII')))
 
   if (!base::identical (dim (total_git), dim (total_current))) {
@@ -50,8 +50,8 @@ update_data <- function() {
     }
   }
 
-  if (!base::identical (dim(city_git), dim (city_current))) {
-    if (base::nrow (city_git) > base::nrow (city_current)) {
+  if (!base::identical (dim(municipality_git), dim (municipality_current))) {
+    if (base::nrow (municipality_git) > base::nrow (municipality_current)) {
       flag <- TRUE
     }
   }

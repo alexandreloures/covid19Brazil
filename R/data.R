@@ -120,12 +120,12 @@
 #'
 #' @examples
 #'
-#' data(italy_region)
+#' data(brazil_region)
 #'
-#' head(italy_region)
+#' head(brazil_region)
 #'
 
-"italy_region"
+"brazil_region"
 
 
 #' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Provinces Outbreak Dataset
