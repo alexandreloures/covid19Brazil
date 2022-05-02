@@ -12,3 +12,4 @@ Encoding: UTF-8
 Language: English
 LazyData: true
 URL: https://github.com/alexandreloures/covid19Brazil.git
+roxygen2: 7.1.2

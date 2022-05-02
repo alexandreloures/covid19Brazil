@@ -1,16 +1,16 @@
 rm (list = ls ()); gc ()
 
-if (!require ('tidyverse')) {
-  install.packages ('tidyverse')
-  library (tidyveres)
-}
+pkgs = installed.packages ()
 
-if (!require ('magrittr')) {
-  install.packages ('magrittr')
-  library (magrittr)
-}
+if (!('tidyverse' %in% pkgs)) install.packages ('tidyverse')
+if (!('magrittr' %in% pkgs)) install.packages ('magrittr')
+if (!('geobr' %in% pkgs)) install.packages ('geobr')
 
-setwd ('D:/OneDrive/academic/Packages R/covid19Brazil/covid19Brazil/csv/HIST_PAINEL_COVIDBR_26abr2022')
+library (tidyverse)
+library (magrittr)
+library (geobr)
+
+setwd ('C:/Users/alexa/Desktop/HIST_PAINEL_COVIDBR_26abr2022')
 
 covid1.2020 <- read_csv2 ('HIST_PAINEL_COVIDBR_2020_Parte1_26abr2022.csv'
                           , col_types = cols_only (regiao = col_character ()
@@ -131,17 +131,48 @@ covid2019 %<>% rename (region = regiao
 
 
 
-setwd ('D:/OneDrive/academic/Packages R/covid19Brazil/covid19Brazil/csv')
+# ---- IBGE shapes files ----
+
+region <- read_region (year = 2020); gc ()
+region %<>% select (-c (code_region
+                        )
+                    ); gc ()
+region %<>% rename (region = name_region)
+
+
+
+
+state <- read_state (code_state = 'all', year = 2020); gc ()
+state %<>% select (-c (abbrev_state, name_state, code_region
+                       , name_region
+                       )
+                   ); gc ()
+state %<>% rename (coduf = code_state)
+
+
+
+
+municipality <- read_municipality (code_muni = 'all', year = 2020); gc ()
+municipality %<>% select (- c(name_muni, code_state, abbrev_state
+                              , name_state, code_region, name_region
+                              )
+                          ); gc ()
+municipality %<>% rename (codmun = code_muni)
+
+
+
+
+setwd ('D:/OneDrive/academic/PackagesR/covid19Brazil/covid19Brazil/csv')
 
 
 
 
 # ---- Brazil total ----
 
-brazil_total <- covid2019 %>% subset (region == 'Brasil')
+brazil_total <- covid2019 %>% subset (region == 'Brasil'); gc ()
 
 brazil_total %<>% select (-c (state, municipality, coduf, codmun)
-                          )
+                          ); gc ()
 
 write_csv (brazil_total, 'brazil_total.csv')
 
@@ -158,32 +189,48 @@ covid2019 %<>% mutate (codmun = ifelse (!is.na (codmun), codmun, 0
 
 state_total <- covid2019 %>% subset (state != 'NA' &
                                        codmun == 0
-                                     )
+                                     ); gc ()
 
 state_total %<>% select (-c (municipality, codmun)
-                         )
+                         ); gc ()
+
+# state_total %<>% full_join (state, by = 'coduf')
 
 write_csv (state_total, 'state_total.csv')
 
-rm (state_total); gc ()
+# rm (state_total); gc ()
 
 
 
 
-# ---- Brazil city ----
+# ---- Brazil municipality ----
 
-brazil_city <- covid2019 %>% subset (municipality != 'NA'
-                                     )
+brazil_municipality <- covid2019 %>% subset (municipality != 'NA'
+                                     ); gc ()
 
-write_csv (brazil_city, 'brazil_city.csv')
+# brazil_municipality %<>% full_join (municipality, by = 'codmun')
 
-rm (brazil_city); gc ()
+write_csv (brazil_municipality, 'brazil_municipality.csv')
+
+rm (brazil_municipality); gc ()
 
 
 
 
 # ---- Region total ----
 
-region_total <- state_total %>% group_by (region & date) %>%
-  summary (accumCases = sum (accumCases)
-           )
+region_total <- state_total %>% group_by (region, date) %>%
+  summarise (population = sum (population)
+             , accumCases = sum (accumCases)
+             , newCases = sum (newCases)
+             , accumDeaths = sum (accumDeaths)
+             , newDeaths = sum (newDeaths)
+             , newRecov = sum (newRecov)
+             , followUp = sum (followUp)
+             )
+
+# region_total %<>% full_join (region, by = 'region')
+
+write_csv (region_total, 'region_total.csv')
+
+rm (state_total, region_total); gc ()
