@@ -176,4 +176,49 @@
 "brazil_state"
 
 
+#' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Provinces Outbreak Dataset
+#'
+#' @description  daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's provinces
+#'
+#'
+#' @format A data.frame object
+#' @source Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+#' @keywords datasets coronavirus COVID19 Italy
+#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+#'
+#' - date - date of notification (Date class)
+#'
+#' - region_name - region names
+#'
+#' - region_code - region code
+#'
+#' - province_name - province names
+#'
+#' - province_spatial - the spatial province names as in the output of the `ne_states` function from the **rnaturalearth** package
+#'
+#' - province_abb - the province abbreviation
+#'
+#' - province_code - province code
+#'
+#' - lat - latitude point
+#'
+#' - long - Longitude point
+#'
+#' - new_cases - daily number of positive cases
+#'
+#' - total_cases - total number of positive cases (cumulative)
+#'
+#' - nuts_code_1 - groups of region -  level 1 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#'
+#' - nuts_code_2 - regions, level 2 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#'
+#' - nuts_code_3 - provinces, level 3 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#'
+#' @examples
+#'
+#' data(brazil_municipality)
+#'
+#' head(brazil_municipality)
+#'
 
+"brazil_municipality"

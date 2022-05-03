@@ -6,7 +6,7 @@
 #' @example
 #' \dontrun{
 #'
-#' data_update()
+#' update_data()
 #'
 #' }
 update_data <- function() {
