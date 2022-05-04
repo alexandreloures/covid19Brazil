@@ -1,50 +1,32 @@
-#' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Brazil Outbreak Dataset
+#' The dataset with information about the new Coronavirus (COVID-19) for Brazil
 #'
-#' @description  daily summary of the Coronavirus (COVID-19) pandemic cases in Brazil
+#' @description  Daily information about the new Coronavirus (COVID-19) pandemic in Brazil
 #'
 #'
 #' @format A data.frame object
-#' @source Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
-#' @keywords datasets coronavirus COVID19 Italy
-#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Italy. The data includes the following fields:
+#' @source Ministéiro da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @keywords datasets coronavirus COVID-19 Brazil sars-cov-2
+#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil. The data includes the following fields:
 #'
-#' - date - date of notification (Date class)
+#' - region - indicates the country of coverage
 #'
-#' - hospitalized_with_symptoms - number of hospitalised patients with symptoms
+#' - date - date of notification
 #'
-#' - intensive_care - intensive Care
+#' - epidWeek - epidemiological week
 #'
-#' - total_hospitalized - total hospitalized patients
+#' - population - population size
 #'
-#' - home_confinement - home confinement
+#' - accumCases - number of cases accumulated
 #'
-#' - cumulative_positive_cases - total amount of current positive cases (Hospitalised patients + Home confinement)
+#' - newCases - number of new cases reported
 #'
-#' - daily_positive_cases - new amount of current positive cases (Hospitalised patients + Home confinement)
+#' - accumDeaths - number of accumulated deaths
 #'
-#' - recovered - recovered cases
+#' - newDeaths - new deaths reported
 #'
-#' - death - death cases
+#' - newRecov - indicates the number of new recovered patients
 #'
-#' - positive_clinical_activity - positive cases emerged from clinical activity
-#'
-#' - positive_surveys_tests - positive cases emerging from surveys and tests, planned at national or regional level
-#'
-#' - cumulative_cases - total positive cases, recovered, and death cases
-#'
-#' - total_tests - number of tests performed
-#'
-#' - total_people_tested - total number of people tested
-#'
-#' - new_intensive_care - daily admissions to intensive care
-#'
-#' - total_positive_molecular_test - total positive cases tested by molecular tests
-#'
-#' - total_positive_rapid_antigen_test - Total positive rapid antigen tests
-#'
-#' - molecular_test - total molecular tests
-#'
-#' - rapid_antigen_test - total rapid antigen tests
+#' - followUp - indicates the number of new cases being followed up
 #'
 #' @examples
 #'
@@ -56,67 +38,37 @@
 "brazil_total"
 
 
-#' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Regions Outbreak Dataset
+#' The dataset with information on the new Coronavirus (COVID-19) for the five regions of Brazil
 #'
-#' @description  daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's regions
+#' @description  Daily information about the new Coronavirus (COVID-19) pandemic in Brazil's regions
 #'
 #'
 #' @format A data.frame object
-#' @source Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
-#' @keywords datasets coronavirus COVID19 Italy
-#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @keywords datasets coronavirus COVID-19 Brazil sars-cov-2
+#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's regions. The data includes the following fields:
 #'
-#' - date - date of notification (Date class)
+#' - region - indicates the regions coverage (Centro-Oeste, Nordeste, Norte, Sudeste, Sul)
 #'
-#' - region_code - region code
+#' - date - date of notification
 #'
-#' - region_name - region names
+#' - epidWeek - epidemiological week
 #'
-#' - lat - latitude point
+#' - population - population size
 #'
-#' - long - Longitude point
+#' - accumCases - number of cases accumulated
 #'
-#' - hospitalized_with_symptoms - number of hospitalised patients with symptoms
+#' - newCases - number of new cases reported
 #'
-#' - intensive_care - intensive Care
+#' - accumDeaths - number of accumulated deaths
 #'
-#' - total_hospitalized - total hospitalised patients
+#' - newDeaths - new deaths reported
 #'
-#' - home_confinement - home confinement
+#' - newRecov - indicates the number of new recovered patients
 #'
-#' - cumulative_positive_cases - total amount of current positive cases (Hospitalised patients + Home confinement)
+#' - followUp - indicates the number of new cases being followed up
 #'
-#' - daily_positive_cases - news amount of current positive cases (Hospitalised patients + Home confinement)
-#'
-#' - recovered - recovered cases
-#'
-#' - death - death cases
-#'
-#' - positive_clinical_activity - positive cases emerged from clinical activity
-#'
-#' - positive_surveys_tests - positive cases emerging from surveys and tests, planned at national or regional level
-#'
-#' - cumulative_cases - total positive, recovered, and death cases
-#'
-#' - total_tests - number of tests performed
-#'
-#' - total_people_tested - total number of people tested
-#'
-#' - new_intensive_care - daily admissions to intensive care
-#'
-#' - total_positive_tests - total positive tests
-#'
-#' - total_fast_tests - total fast tests
-#'
-#' - daily_positive_tests - daily positive tests
-#'
-#' - daily_fast_tests - daily fasts tests
-#'
-#' - nuts_code_1 - NUTS statistical regions of Italy more details available more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
-#'
-#' - nuts_code_2 - NUTS statistical regions of Italy more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
-#'
-#' - region_spatial - the spatial region names as in the output of the `ne_states` function from the **rnaturalearth** package
+#' - geom - georeferencing polygons (multipolygon) for each region
 #'
 #' @examples
 #'
@@ -128,43 +80,41 @@
 "brazil_region"
 
 
-#' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Provinces Outbreak Dataset
+#' The dataset with information on the new Coronavirus (COVID-19) for the twenty-seven states of Brazil
 #'
-#' @description  daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's provinces
+#' @description  Daily information about the new Coronavirus (COVID-19) pandemic in Brazil's states
 #'
 #'
 #' @format A data.frame object
-#' @source Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID19 Italy
-#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's states. The data includes the following fields:
 #'
-#' - date - date of notification (Date class)
+#' - region - indicates to which region the state belongs
 #'
-#' - region_name - region names
+#' - state - acronym (abbreviation) for state name
 #'
-#' - region_code - region code
+#' - coduf - number that identifies the state
 #'
-#' - province_name - province names
+#' - date - date of notification
 #'
-#' - province_spatial - the spatial province names as in the output of the `ne_states` function from the **rnaturalearth** package
+#' - epidWeek - epidemiological week
 #'
-#' - province_abb - the province abbreviation
+#' - population - population size
 #'
-#' - province_code - province code
+#' - accumCases - number of cases accumulated
 #'
-#' - lat - latitude point
+#' - newCases - number of new cases reported
 #'
-#' - long - Longitude point
+#' - accumDeaths - number of accumulated deaths
 #'
-#' - new_cases - daily number of positive cases
+#' - newDeaths - new deaths reported
 #'
-#' - total_cases - total number of positive cases (cumulative)
+#' - newRecov - indicates the number of new recovered patients
 #'
-#' - nuts_code_1 - groups of region -  level 1 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#' - followUp - indicates the number of new cases being followed up
 #'
-#' - nuts_code_2 - regions, level 2 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
-#'
-#' - nuts_code_3 - provinces, level 3 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#' - geom - georeferencing polygons (multipolygon) for each state
 #'
 #' @examples
 #'
@@ -176,43 +126,45 @@
 "brazil_state"
 
 
-#' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Provinces Outbreak Dataset
+#' The dataset with information on the new Coronavirus (COVID-19) for the 5,570 municipalities in Brasil
 #'
-#' @description  daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's provinces
+#' @description  Daily information about the new Coronavirus (COVID-19) pandemic cases in Brazil's municipalities
 #'
 #'
 #' @format A data.frame object
-#' @source Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID19 Italy
-#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+#' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's municipalities. The data includes the following fields:
 #'
-#' - date - date of notification (Date class)
+#' - region - indicates to which region the municipality belongs
 #'
-#' - region_name - region names
+#' - state - indicates to which state the municipality belongs
 #'
-#' - region_code - region code
+#' - municipality - municipality name
 #'
-#' - province_name - province names
+#' - coduf - number that identifies the state
 #'
-#' - province_spatial - the spatial province names as in the output of the `ne_states` function from the **rnaturalearth** package
+#' - codmun - number that identifies the municipality
 #'
-#' - province_abb - the province abbreviation
+#' - date - date of notification
 #'
-#' - province_code - province code
+#' - epidWeek - epidemiological week
 #'
-#' - lat - latitude point
+#' - population - population size
 #'
-#' - long - Longitude point
+#' - accumCases - number of cases accumulated
 #'
-#' - new_cases - daily number of positive cases
+#' - newCases - number of new cases reported
 #'
-#' - total_cases - total number of positive cases (cumulative)
+#' - accumDeaths - number of accumulated deaths
 #'
-#' - nuts_code_1 - groups of region -  level 1 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#' - newDeaths - new deaths reported
 #'
-#' - nuts_code_2 - regions, level 2 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#' - newRecov - indicates the number of new recovered patients
 #'
-#' - nuts_code_3 - provinces, level 3 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+#' - followUp - indicates the number of new cases being followed up
+#'
+#' - geom - georeferencing polygons (multipolygon) for each municipality
 #'
 #' @examples
 #'
