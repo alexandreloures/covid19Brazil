@@ -3,59 +3,41 @@
 \docType{data}
 \name{brazil_total}
 \alias{brazil_total}
-\title{The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Brazil Outbreak Dataset}
+\title{The dataset with information about the new Coronavirus (COVID-19) for Brazil}
 \format{
 A data.frame object
 }
 \source{
-Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+Ministéiro da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
 }
 \usage{
 brazil_total
 }
 \description{
-daily summary of the Coronavirus (COVID-19) pandemic cases in Brazil
+Daily information about the new Coronavirus (COVID-19) pandemic in Brazil
 }
 \details{
-The dataset contains the daily summary of the Coronavirus pandemic cases in Italy. The data includes the following fields:
+The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil. The data includes the following fields:
 
-- date - date of notification (Date class)
+- region - indicates the country of coverage
 
-- hospitalized_with_symptoms - number of hospitalised patients with symptoms
+- date - date of notification
 
-- intensive_care - intensive Care
+- epidWeek - epidemiological week
 
-- total_hospitalized - total hospitalized patients
+- population - population size
 
-- home_confinement - home confinement
+- accumCases - number of cases accumulated
 
-- cumulative_positive_cases - total amount of current positive cases (Hospitalised patients + Home confinement)
+- newCases - number of new cases reported
 
-- daily_positive_cases - new amount of current positive cases (Hospitalised patients + Home confinement)
+- accumDeaths - number of accumulated deaths
 
-- recovered - recovered cases
+- newDeaths - new deaths reported
 
-- death - death cases
+- newRecov - indicates the number of new recovered patients
 
-- positive_clinical_activity - positive cases emerged from clinical activity
-
-- positive_surveys_tests - positive cases emerging from surveys and tests, planned at national or regional level
-
-- cumulative_cases - total positive cases, recovered, and death cases
-
-- total_tests - number of tests performed
-
-- total_people_tested - total number of people tested
-
-- new_intensive_care - daily admissions to intensive care
-
-- total_positive_molecular_test - total positive cases tested by molecular tests
-
-- total_positive_rapid_antigen_test - Total positive rapid antigen tests
-
-- molecular_test - total molecular tests
-
-- rapid_antigen_test - total rapid antigen tests
+- followUp - indicates the number of new cases being followed up
 }
 \examples{
 
@@ -64,7 +46,8 @@ data(brazil_total)
 head(brazil_total)
 
 }
-\keyword{COVID19}
-\keyword{Italy}
+\keyword{Brazil}
+\keyword{COVID-19}
 \keyword{coronavirus}
 \keyword{datasets}
+\keyword{sars-cov-2}

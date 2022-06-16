@@ -3,73 +3,43 @@
 \docType{data}
 \name{brazil_region}
 \alias{brazil_region}
-\title{The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Regions Outbreak Dataset}
+\title{The dataset with information on the new Coronavirus (COVID-19) for the five regions of Brazil}
 \format{
 A data.frame object
 }
 \source{
-Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
 }
 \usage{
 brazil_region
 }
 \description{
-daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's regions
+Daily information about the new Coronavirus (COVID-19) pandemic in Brazil's regions
 }
 \details{
-The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's regions. The data includes the following fields:
 
-- date - date of notification (Date class)
+- region - indicates the regions coverage (Centro-Oeste, Nordeste, Norte, Sudeste, Sul)
 
-- region_code - region code
+- date - date of notification
 
-- region_name - region names
+- epidWeek - epidemiological week
 
-- lat - latitude point
+- population - population size
 
-- long - Longitude point
+- accumCases - number of cases accumulated
 
-- hospitalized_with_symptoms - number of hospitalised patients with symptoms
+- newCases - number of new cases reported
 
-- intensive_care - intensive Care
+- accumDeaths - number of accumulated deaths
 
-- total_hospitalized - total hospitalised patients
+- newDeaths - new deaths reported
 
-- home_confinement - home confinement
+- newRecov - indicates the number of new recovered patients
 
-- cumulative_positive_cases - total amount of current positive cases (Hospitalised patients + Home confinement)
+- followUp - indicates the number of new cases being followed up
 
-- daily_positive_cases - news amount of current positive cases (Hospitalised patients + Home confinement)
-
-- recovered - recovered cases
-
-- death - death cases
-
-- positive_clinical_activity - positive cases emerged from clinical activity
-
-- positive_surveys_tests - positive cases emerging from surveys and tests, planned at national or regional level
-
-- cumulative_cases - total positive, recovered, and death cases
-
-- total_tests - number of tests performed
-
-- total_people_tested - total number of people tested
-
-- new_intensive_care - daily admissions to intensive care
-
-- total_positive_tests - total positive tests
-
-- total_fast_tests - total fast tests
-
-- daily_positive_tests - daily positive tests
-
-- daily_fast_tests - daily fasts tests
-
-- nuts_code_1 - NUTS statistical regions of Italy more details available more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
-
-- nuts_code_2 - NUTS statistical regions of Italy more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
-
-- region_spatial - the spatial region names as in the output of the `ne_states` function from the **rnaturalearth** package
+- geom - georeferencing polygons (multipolygon) for each region
 }
 \examples{
 
@@ -78,7 +48,8 @@ data(brazil_region)
 head(brazil_region)
 
 }
-\keyword{COVID19}
-\keyword{Italy}
+\keyword{Brazil}
+\keyword{COVID-19}
 \keyword{coronavirus}
 \keyword{datasets}
+\keyword{sars-cov-2}

@@ -21,5 +21,4 @@ BugReports: https://github.com/alexandreloures/covid19brazil/issues
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 NeedsCompilation: no
-Author: Alexandre Loures [aut, cre]
 Repository: CRAN

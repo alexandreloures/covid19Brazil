@@ -3,49 +3,51 @@
 \docType{data}
 \name{brazil_municipality}
 \alias{brazil_municipality}
-\title{The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Italy Provinces Outbreak Dataset}
+\title{The dataset with information on the new Coronavirus (COVID-19) for the 5,570 municipalities in Brasil}
 \format{
 A data.frame object
 }
 \source{
-Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile \href{https://www.protezionecivile.it/}{website}
+Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
 }
 \usage{
 brazil_municipality
 }
 \description{
-daily summary of the Coronavirus (COVID-19) pandemic cases in Italy's provinces
+Daily information about the new Coronavirus (COVID-19) pandemic cases in Brazil's municipalities
 }
 \details{
-The dataset contains the daily summary of the Coronavirus pandemic cases in Italy's regions. The data includes the following fields:
+The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's municipalities. The data includes the following fields:
 
-- date - date of notification (Date class)
+- region - indicates to which region the municipality belongs
 
-- region_name - region names
+- state - indicates to which state the municipality belongs
 
-- region_code - region code
+- municipality - municipality name
 
-- province_name - province names
+- coduf - number that identifies the state
 
-- province_spatial - the spatial province names as in the output of the `ne_states` function from the **rnaturalearth** package
+- codmun - number that identifies the municipality
 
-- province_abb - the province abbreviation
+- date - date of notification
 
-- province_code - province code
+- epidWeek - epidemiological week
 
-- lat - latitude point
+- population - population size
 
-- long - Longitude point
+- accumCases - number of cases accumulated
 
-- new_cases - daily number of positive cases
+- newCases - number of new cases reported
 
-- total_cases - total number of positive cases (cumulative)
+- accumDeaths - number of accumulated deaths
 
-- nuts_code_1 - groups of region -  level 1 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+- newDeaths - new deaths reported
 
-- nuts_code_2 - regions, level 2 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+- newRecov - indicates the number of new recovered patients
 
-- nuts_code_3 - provinces, level 3 of Italy statistical regions (Nomenclature of Territorial Units for Statistics), more details available \href{https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Italy}{here}
+- followUp - indicates the number of new cases being followed up
+
+- geom - georeferencing polygons (multipolygon) for each municipality
 }
 \examples{
 
