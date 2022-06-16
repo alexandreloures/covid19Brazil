@@ -30,9 +30,9 @@
 #'
 #' @examples
 #'
-#' data(brazil_total)
+#' data (brazil_total)
 #'
-#' head(brazil_total)
+#' head (brazil_total)
 #'
 
 "brazil_total"
@@ -72,9 +72,9 @@
 #'
 #' @examples
 #'
-#' data(brazil_region)
+#' data (brazil_region)
 #'
-#' head(brazil_region)
+#' head (brazil_region)
 #'
 
 "brazil_region"
@@ -118,9 +118,9 @@
 #'
 #' @examples
 #'
-#' data(brazil_state)
+#' data (brazil_state)
 #'
-#' head(brazil_state)
+#' head (brazil_state)
 #'
 
 "brazil_state"
@@ -168,9 +168,9 @@
 #'
 #' @examples
 #'
-#' data(brazil_municipality)
+#' data (brazil_municipality)
 #'
-#' head(brazil_municipality)
+#' head (brazil_municipality)
 #'
 
 "brazil_municipality"
