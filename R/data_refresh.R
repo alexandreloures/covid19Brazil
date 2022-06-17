@@ -6,10 +6,10 @@
 #' @example
 #' \dontrun{
 #'
-#' update_data()
+#' update_data ()
 #'
 #' }
-update_data <- function() {
+update_data <- function () {
   flag <- FALSE
 
   total_current <- covid19brazil::brazil_total
@@ -17,20 +17,24 @@ update_data <- function() {
   state_current <- covid19brazil::brazil_state
   municipality_current <- covid19brazil::brazil_municipality
 
-  total_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_total.csv'
-                                               , locale = readr::locale(encoding = "ASCII")))
+  total_git <- as.data.frame (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_total.rda'
+                                    )
+                              )
 
 
-  region_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_region.csv'
-                                                , locale = readr::locale(encoding = "ASCII")))
+  region_git <- as.data.frame (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_region.rda'
+                                     )
+                               )
 
 
-  state_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_state.csv'
-                                               , locale = readr::locale(encoding = "ASCII")))
+  state_git <- as.data.frame (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_state.rda'
+                                    )
+                              )
 
 
-  municipality_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_municipality.csv'
-                                                      , locale = readr::locale (encoding = 'ASCII')))
+  municipality_git <- as.data.frame (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_municipality.rda'
+                                           )
+                                     )
 
   if (!base::identical (dim (total_git), dim (total_current))) {
     if (base::nrow (total_git) > base::nrow (total_current)) {

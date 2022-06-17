@@ -8,7 +8,7 @@
 A data.frame object
 }
 \source{
-Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 }
 \usage{
 brazil_region
@@ -34,8 +34,6 @@ The dataset contains the daily summary of the Coronavirus pandemic cases in Braz
 - accumDeaths - number of accumulated deaths
 
 - newDeaths - new deaths reported
-
-- geom - georeferencing polygons (multipolygon) for each region
 }
 \examples{
 

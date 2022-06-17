@@ -4,7 +4,7 @@
 #'
 #'
 #' @format A data.frame object
-#' @source Ministéiro da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @source Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID-19 Brazil sars-cov-2
 #' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil. The data includes the following fields:
 #'
@@ -44,7 +44,7 @@
 #'
 #'
 #' @format A data.frame object
-#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @source Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID-19 Brazil sars-cov-2
 #' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's regions. The data includes the following fields:
 #'
@@ -64,8 +64,6 @@
 #'
 #' - newDeaths - new deaths reported
 #'
-#' - geom - georeferencing polygons (multipolygon) for each region
-#'
 #' @examples
 #'
 #' data (brazil_region)
@@ -82,7 +80,7 @@
 #'
 #'
 #' @format A data.frame object
-#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @source Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID19 Italy
 #' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's states. The data includes the following fields:
 #'
@@ -106,8 +104,6 @@
 #'
 #' - newDeaths - new deaths reported
 #'
-#' - geom - georeferencing polygons (multipolygon) for each state
-#'
 #' @examples
 #'
 #' data (brazil_state)
@@ -124,7 +120,7 @@
 #'
 #'
 #' @format A data.frame object
-#' @source Ministério da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+#' @source Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 #' @keywords datasets coronavirus COVID19 Italy
 #' @details The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's municipalities. The data includes the following fields:
 #'
@@ -151,8 +147,6 @@
 #' - accumDeaths - number of accumulated deaths
 #'
 #' - newDeaths - new deaths reported
-#'
-#' - geom - georeferencing polygons (multipolygon) for each municipality
 #'
 #' @examples
 #'

@@ -8,7 +8,7 @@
 A data.frame object
 }
 \source{
-Ministéiro da Saúde - Sistema Único de Saúde (SUS) \href{https://www.saude.gov.br/}{website}
+Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
 }
 \usage{
 brazil_total
