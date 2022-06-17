@@ -39,17 +39,13 @@ The dataset contains the daily summary of the Coronavirus pandemic cases in Braz
 
 - newDeaths - new deaths reported
 
-- newRecov - indicates the number of new recovered patients
-
-- followUp - indicates the number of new cases being followed up
-
 - geom - georeferencing polygons (multipolygon) for each state
 }
 \examples{
 
-data(brazil_state)
+data (brazil_state)
 
-head(brazil_state)
+head (brazil_state)
 
 }
 \keyword{COVID19}

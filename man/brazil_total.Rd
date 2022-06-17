@@ -41,9 +41,9 @@ The dataset contains the daily summary of the Coronavirus pandemic cases in Braz
 }
 \examples{
 
-data(brazil_total)
+data (brazil_total)
 
-head(brazil_total)
+head (brazil_total)
 
 }
 \keyword{Brazil}

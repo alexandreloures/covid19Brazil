@@ -64,10 +64,6 @@
 #'
 #' - newDeaths - new deaths reported
 #'
-#' - newRecov - indicates the number of new recovered patients
-#'
-#' - followUp - indicates the number of new cases being followed up
-#'
 #' - geom - georeferencing polygons (multipolygon) for each region
 #'
 #' @examples
@@ -109,10 +105,6 @@
 #' - accumDeaths - number of accumulated deaths
 #'
 #' - newDeaths - new deaths reported
-#'
-#' - newRecov - indicates the number of new recovered patients
-#'
-#' - followUp - indicates the number of new cases being followed up
 #'
 #' - geom - georeferencing polygons (multipolygon) for each state
 #'
@@ -159,10 +151,6 @@
 #' - accumDeaths - number of accumulated deaths
 #'
 #' - newDeaths - new deaths reported
-#'
-#' - newRecov - indicates the number of new recovered patients
-#'
-#' - followUp - indicates the number of new cases being followed up
 #'
 #' - geom - georeferencing polygons (multipolygon) for each municipality
 #'

@@ -17,20 +17,20 @@ update_data <- function() {
   state_current <- covid19brazil::brazil_state
   municipality_current <- covid19brazil::brazil_municipality
 
-  total_git <- as_tibble (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_total.csv'
-                                           , locale = readr::locale(encoding = "ASCII")))
+  total_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_total.csv'
+                                               , locale = readr::locale(encoding = "ASCII")))
 
 
-  region_git <- as_tibble (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_region.csv'
-                                            , locale = readr::locale(encoding = "ASCII")))
+  region_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_region.csv'
+                                                , locale = readr::locale(encoding = "ASCII")))
 
 
-  state_git <- as_tibble (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_state.csv'
-                                           , locale = readr::locale(encoding = "ASCII")))
+  state_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_state.csv'
+                                               , locale = readr::locale(encoding = "ASCII")))
 
 
-  municipality_git <- as_tibble (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_municipality.csv'
-                                                  , locale = readr::locale (encoding = 'ASCII')))
+  municipality_git <- as.data.frame (readr::read_csv ('https://media.githubusercontent.com/media/alexandreloures/covid19Brazil/main/csv/brazil_municipality.csv'
+                                                      , locale = readr::locale (encoding = 'ASCII')))
 
   if (!base::identical (dim (total_git), dim (total_current))) {
     if (base::nrow (total_git) > base::nrow (total_current)) {
