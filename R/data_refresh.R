@@ -17,24 +17,24 @@ update_data <- function () {
   state_current <- covid19brazil::brazil_state
   municipality_current <- covid19brazil::brazil_municipality
 
-  total_git <- dplyr::tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_total.rda'
-                                    )
-                              )
+  total_git <- dplyr::as_tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_total.rda'
+                                       )
+                                 )
 
 
-  region_git <- dplyr::tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_region.rda'
-                                     )
-                               )
+  region_git <- dplyr::as_tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_region.rda'
+                                        )
+                                  )
 
 
-  state_git <- dplyr::tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_state.rda'
-                                    )
-                              )
+  state_git <- dplyr::as_tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_state.rda'
+                                       )
+                                 )
 
 
-  municipality_git <- dplyr::tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_municipality.rda'
-                                           )
-                                     )
+  municipality_git <- dplyr::as_tibble (load ('https://raw.githubusercontent.com/alexandreloures/covid19Brazil/main/data/brazil_municipality.rda'
+                                              )
+                                        )
 
   if (!base::identical (dim (total_git), dim (total_current))) {
     if (base::nrow (total_git) > base::nrow (total_current)) {
