@@ -2,7 +2,7 @@ Package: covid19brazil
 Type: Package
 Title: COVID-19 Dataset for Brazil
 Version: 0.1.0
-Author: person("Alexandre", "Loures", email = "alexandre.loures@protonmail.com",
+Authors@R: person("Alexandre", "Loures", email = "alexandre.loures@protonmail.com",
     role = c("aut", "cre"))
 Maintainer: Alexandre Loures <alexandre.loures@protonmail.com>
 Description: Dataset with strategic information about COVID-19 in Brazil.
