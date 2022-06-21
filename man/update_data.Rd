@@ -6,6 +6,9 @@
 \usage{
 update_data()
 }
+\value{
+Check the github repository for updates
+}
 \description{
 Checks if new data is available on the package dev version (Github).
 In case new data is available the function will enable the user the update the datasets

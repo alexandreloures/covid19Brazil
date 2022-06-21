@@ -8,10 +8,13 @@
 A data.frame object
 }
 \source{
-Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
+Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.gov.br/saude/pt-br}{website}
 }
 \usage{
 brazil_municipality
+}
+\value{
+load the database for the current environment
 }
 \description{
 Daily information about the new Coronavirus (COVID-19) pandemic cases in Brazil's municipalities
@@ -19,38 +22,37 @@ Daily information about the new Coronavirus (COVID-19) pandemic cases in Brazil'
 \details{
 The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil's municipalities. The data includes the following fields:
 
-- region - indicates to which region the municipality belongs
+* region - String. Indicates to which region the municipality belongs
 
-- state - indicates to which state the municipality belongs
+* state - String. Indicates to which state the municipality belongs
 
-- municipality - municipality name
+* municipality - String. Municipality name
 
-- coduf - number that identifies the state
+* coduf - Numeric. Number that identifies the state
 
-- codmun - number that identifies the municipality
+* codmun - Numeric. Number that identifies the municipality
 
-- date - date of notification
+* date - Date. Ocurrence notification date
 
-- epidWeek - epidemiological week
+* epidWeek - Numeric. Epidemiological week of ocurrence by notification date
 
-- population - population size
+* population - Numeric. Population of the size, of each municipality, on the date of notification of the ocurrence
 
-- accumCases - number of cases accumulated
+* accumCases - Numeric. Cumulative cases of COVID-19 by notification date
 
-- newCases - number of new cases reported
+* newCases - Numeric. Number of new COVID-19 cases by notification date
 
-- accumDeaths - number of accumulated deaths
+* accumDeaths - Numeric. Accumulated COVID-19 deaths by notitication date
 
-- newDeaths - new deaths reported
+* newDeaths - Numeric. Number of new COVID-19 deaths by notification date
 }
 \examples{
 
 data (brazil_municipality)
 
-head (brazil_municipality)
-
 }
-\keyword{COVID19}
-\keyword{Italy}
+\keyword{Brazil}
+\keyword{COVID-19}
 \keyword{coronavirus}
 \keyword{datasets}
+\keyword{sars-cov-2}

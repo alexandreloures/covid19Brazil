@@ -2,24 +2,31 @@ Package: covid19brazil
 Type: Package
 Title: COVID-19 Dataset for Brazil
 Version: 0.1.0
-Authors@R: person("Alexandre", "Loures", email = "alexandre.loures@protonmail.com",
-    role = c("aut", "cre"))
+Authors@R: person("Alexandre",
+                  "Loures",
+		              comment = c(ORCID = "https://orcid.org/0000-0002-1288-0135"),
+                  role = c("aut", "cre"),
+                  email = "alexandre.loures@protonmail.com"
+                  )
 Maintainer: Alexandre Loures <alexandre.loures@protonmail.com>
 Description: Dataset with strategic information about COVID-19 in Brazil.
     Data for municipalities, states, region and Brazil. Data source:
-    Sistema Único de Saúde - SUS.
+    Sistema Unico de Saude - SUS.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: English
 LazyData: true
 LazyDataCompression: xz
 Depends: R (>= 3.5.0)
-Imports: devtools
-Suggests: knitr (>= 1.28), readr (>= 1.3.1), remotes (>= 2.1.1),
-    rmarkdown (>= 2.1), testthat (>= 2.1.0)
+Imports:
+    devtools,
+    dplyr
+Suggests:
+    remotes (>= 2.1.1),
+    rmarkdown (>= 2.1),
+    testthat (>= 2.1.0)
 URL: https://github.com/alexandreloures/covid19Brazil
 BugReports: https://github.com/alexandreloures/covid19brazil/issues
 RoxygenNote: 7.1.2
-VignetteBuilder: knitr
 NeedsCompilation: no
 Repository: CRAN

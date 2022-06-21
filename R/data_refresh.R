@@ -3,13 +3,16 @@
 #' @description Checks if new data is available on the package dev version (Github).
 #' In case new data is available the function will enable the user the update the datasets
 #'
+#' @return Check the github repository for updates
+#'
 #' @example
+#'
 #' \dontrun{
 #'
-#' update_data ()
+#' update_data()
 #'
 #' }
-update_data <- function () {
+update_data <- function() {
   flag <- FALSE
 
   total_current <- covid19brazil::brazil_total

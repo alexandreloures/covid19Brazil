@@ -8,10 +8,13 @@
 A data.frame object
 }
 \source{
-Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.saude.gov.br/}{website}
+Ministerio da Saude - Sistema Unico de Saude (SUS) \href{https://www.gov.br/saude/pt-br}{website}
 }
 \usage{
 brazil_total
+}
+\value{
+load the database for the current environment
 }
 \description{
 Daily information about the new Coronavirus (COVID-19) pandemic in Brazil
@@ -19,31 +22,29 @@ Daily information about the new Coronavirus (COVID-19) pandemic in Brazil
 \details{
 The dataset contains the daily summary of the Coronavirus pandemic cases in Brazil. The data includes the following fields:
 
-- region - indicates the country of coverage
+* region - String. Indicates the country of coverage
 
-- date - date of notification
+* date - Date. Ocurrence notification date
 
-- epidWeek - epidemiological week
+* epidWeek - Numeric. Epidemiological week of ocurrence by notification date
 
-- population - population size
+* population - Numeric. Population size at the date of ocurrence notification
 
-- accumCases - number of cases accumulated
+* accumCases - Numeric. Cumulative cases of COVID-19 by notification date
 
-- newCases - number of new cases reported
+* newCases - Numeric. Number of new COVID-19 cases by notification date
 
-- accumDeaths - number of accumulated deaths
+* accumDeaths - Numeric. Accumulated COVID-19 deaths by notification date
 
-- newDeaths - new deaths reported
+* newDeaths - Numeric. Number of new COVID-19 deaths by notification date
 
-- newRecov - indicates the number of new recovered patients
+* newRecov - Numeric. Number of new recovered COVID-19 patients by notification date
 
-- followUp - indicates the number of new cases being followed up
+* followUp - Numeric. Number of new COVID-19 cases being followed up by notification date
 }
 \examples{
 
 data (brazil_total)
-
-head (brazil_total)
 
 }
 \keyword{Brazil}
