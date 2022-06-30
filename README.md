@@ -19,7 +19,7 @@ knitr::opts_chunk$set (
 
 <!--badges: start -->
 
-[![build](https://github.com/AlexandreLoures/covid19brazil/workflows/build/badge.svg?branch=master)](https://github.com/AlexandreLoures/covid19Brazil/actions?query=workflow%3Abuild)
+[![build](https://github.com/AlexandreLoures/covid19Brazil/workflows/build/badge.svg?branch=master)](https://github.com/AlexandreLoures/covid19Brazil/actions/new)
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/covid19brazil)](https://cran.r-project.org/package=covid19brazil)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![License: Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
