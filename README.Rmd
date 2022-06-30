@@ -31,3 +31,20 @@ The `covid19brazil` R package has daily information on the number of accumulated
 * `brazil_region` - The dataset with information on the new Coronavirus (COVID-19) for the five regions of Brazil
 * `brazil_state` - The dataset with information on the new Coronavirus (COVID-19) for the twenty-seven federative units of Brazil
 * `brazil_municipality` - The dataset with information on the new Coronavirus (COVID-19) for the 5,570 municipalities in Brasil
+
+# Installation
+
+To install the `package`, one of the two standard methods for installing `packages`in R can be adopted. Through the [cran] (https://cran.r-project.org/package=covid19brazil):
+
+``` r
+install.packages ("covid19brazil")
+```
+
+Or even using the command below. In the latter case, the latest version of the `package`will be installed.
+
+``` r
+# install.packages ("devtools")
+devtools::install_github ("AlexandreLoures/covid19brazil")
+```
+
+
