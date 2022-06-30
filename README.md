@@ -24,8 +24,8 @@ follows:
     (COVID-19) for the five regions of Brazil
 -   `brazil_state` - Information on the new Coronavirus (COVID-19) for
     the twenty-seven federative units of Brazil
--   `brazil_municipality` - Dataset with information on the new
-    Coronavirus (COVID-19) for the 5,570 municipalities in Brazil
+-   `brazil_municipality` - Information on the new Coronavirus
+    (COVID-19) for the 5,570 municipalities in Brazil
 
 # Installation
 
