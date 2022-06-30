@@ -1,5 +1,5 @@
 
-\<! README.md is generated from README.Rmd. Please edit that fiel –\>
+<!-- README.md is generated from README.Rmd. Please edit that fiel -->
 
 # covid19brazil
 
@@ -12,3 +12,17 @@ Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/
 [![Github
 commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/covid19r/covid19brazil/commit/master)
 <!-- badges: end -->
+
+The covid19brazil package has daily information on the number of
+accumulated cases and accumulated deaths for the COVID-19 pandemic in
+Brazil. The information available in the package is organized as
+follows:
+
+-   `brazil_total` - The dataset with information about the new
+    Coronavirus (COVID-19) for Brazil
+-   `brazil_region` - The dataset with information on the new
+    Coronavirus (COVID-19) for the five regions of Brazil
+-   `brazil_state` - The dataset with information on the new Coronavirus
+    (COVID-19) for the twenty-seven federative units of Brazil
+-   `brazil_municipality` - The dataset with information on the new
+    Coronavirus (COVID-19) for the 5,570 municipalities in Brasil
