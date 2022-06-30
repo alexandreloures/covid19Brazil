@@ -23,9 +23,14 @@ follows:
 -   `brazil_region` - Dataset with information on the new Coronavirus
     (COVID-19) for the five regions of Brazil
 -   `brazil_state` - Information on the new Coronavirus (COVID-19) for
-    the twenty-seven federative units of Brazil
+    the twenty-seven Federative Units of Brazil
 -   `brazil_municipality` - Information on the new Coronavirus
     (COVID-19) for the 5,570 municipalities in Brazil
+
+The graph below shows the number of cases accumulated in each Federative
+Unit of Brazil per 100,000 inhabitants
+
+<img src="figures/mapStates.png" width="100%" />
 
 # Installation
 
