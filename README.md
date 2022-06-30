@@ -28,7 +28,7 @@ follows:
     (COVID-19) for the 5,570 municipalities in Brazil
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants
+Unit of Brazil per 100,000 inhabitants (data for the day 2022-06-24).
 
 <img src="figures/mapStates.png" width="100%" />
 
