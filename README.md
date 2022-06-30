@@ -10,7 +10,7 @@
 [![License:
 Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Github
-commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/covid19r/covid19brazil/commit/master)
+commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/covid19brazil/commit/main)
 <!-- badges: end -->
 
 The covid19brazil package has daily information on the number of
