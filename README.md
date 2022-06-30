@@ -19,9 +19,9 @@ knitr::opts_chunk$set (
 
 <!--badges: start -->
 
-[![build]()]()
+[![build](https://github.com/AlexandreLoures/covid19brazil/workflows/build/badge.svg?branch=master)](https://github.com/AlexandreLoures/covid19brazil/actions?query=workflow%3Abuild)
 [![CRAN\_Status\_Badge]()]()
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![License: Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Github commit]()]()
+[![Github commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/covid19r/covid19brazil/commit/master)
 <!-- badges: end -->
