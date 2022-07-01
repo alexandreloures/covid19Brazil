@@ -55,6 +55,20 @@ of the `package`will be installed.
 devtools::install_github ("AlexandreLoures/covid19brazil")
 ```
 
+# The update_data command
+
+To obtain the most up-to-date version of the data on the new coronavirus
+(COVID-19) pandemic in Brazil, use the `update_data` command. Data is
+updated every Monday on [Github (Dev)
+version](https://github.com/AlexandreLoures/covid19brazil), however, the
+[CRAN version](https://cran.r-project.org/package=covid19brazil) of the
+`covid19brazil` package is updated every month or two. **Don’t forget to
+restart the R session to load the new data**.
+
+``` r
+update_data ()
+```
+
 # Using the package
 
 ``` r
@@ -77,4 +91,52 @@ head (brazil_total)
 # 6         0        1        1
 ```
 
-# Analyzing the dataset
+# Download, read and analyze the microdata
+
+``` r
+library (ploty)
+
+plot_ly(data = brazil_total,
+        x = ~ date,
+        y = ~home_confinement, 
+        name = 'Home Confinement', 
+        fillcolor = '#FDBBBC',
+        type = 'scatter',
+        mode = 'none', 
+        stackgroup = 'one') %>%
+  add_trace( y = ~ hospitalized_with_symptoms, 
+             name = "Hospitalized with Symptoms",
+             fillcolor = '#E41317') %>%
+  add_trace(y = ~intensive_care, 
+                name = 'Intensive Care', 
+                fillcolor = '#9E0003') %>%
+  layout(title = "Brazil - Distribution of Active Covid19 Cases",
+         legend = list(x = 0.8, y = 0.9),
+         yaxis = list(title = "Number of Cases"),
+         xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
+```
+
+<img src="figures/accumCases.png" width="100%" />
+
+``` r
+p <- plot_ly(data = brazil_total,
+        x = ~ date,
+        y = ~home_confinement, 
+        name = 'Home Confinement', 
+        fillcolor = '#FDBBBC',
+        type = 'scatter',
+        mode = 'none', 
+        stackgroup = 'one') %>%
+  add_trace( y = ~ hospitalized_with_symptoms, 
+             name = "Hospitalized with Symptoms",
+             fillcolor = '#E41317') %>%
+  add_trace(y = ~intensive_care, 
+                name = 'Intensive Care', 
+                fillcolor = '#9E0003') %>%
+  layout(title = "Brazil - Distribution of Active Covid19 Cases",
+         legend = list(x = 0.8, y = 0.9),
+         yaxis = list(title = "Number of Cases"),
+         xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
+```
+
+<img src="figures/accumDeaths.png" width="100%" />
