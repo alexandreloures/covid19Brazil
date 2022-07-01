@@ -110,7 +110,7 @@ plot_ly(data = brazil_total,
   add_trace(y = ~intensive_care, 
                 name = 'Intensive Care', 
                 fillcolor = '#9E0003') %>%
-  layout(title = "Brazil - Distribution of Active Covid19 Cases",
+  layout(title = "Number of cases accumulated by region",
          legend = list(x = 0.8, y = 0.9),
          yaxis = list(title = "Number of Cases"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
@@ -133,9 +133,9 @@ p <- plot_ly(data = brazil_total,
   add_trace(y = ~intensive_care, 
                 name = 'Intensive Care', 
                 fillcolor = '#9E0003') %>%
-  layout(title = "Brazil - Distribution of Active Covid19 Cases",
+  layout(title = "Number of deaths accumulated by region",
          legend = list(x = 0.8, y = 0.9),
-         yaxis = list(title = "Number of Cases"),
+         yaxis = list(title = "Number of Deaths"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
 
