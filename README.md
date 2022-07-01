@@ -11,8 +11,7 @@
 Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Github
 commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/AlexandreLoures/covid19Brazil/commit)
-[![Git all
-releases](https://img.shields.io/github/downloads/AlexandreLoures/covid19brazil/total.svg)](https://cran.r-project.org/web/packages/covid19brazil/index.html)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
 <!-- badges: end -->
 
 The `covid19brazil` R package has daily information on the number of
