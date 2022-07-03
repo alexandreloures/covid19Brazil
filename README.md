@@ -59,7 +59,7 @@ devtools::install_github ("AlexandreLoures/covid19brazil")
 
 To obtain the most up-to-date version of the data on the new coronavirus
 (COVID-19) pandemic in Brazil, use the `update_data` command. Data is
-updated every Monday on [Github (Dev)
+updated daily on [Github (Dev)
 version](https://github.com/AlexandreLoures/covid19brazil), however, the
 [CRAN version](https://cran.r-project.org/package=covid19brazil) of the
 `covid19brazil` package is updated every month or two. **Don’t forget to
