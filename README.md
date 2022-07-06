@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![build](https://github.com/AlexandreLoures/covid19brazil/actions/workflows/main.yml/badge.svg)](https://github.com/AlexandreLoures/covid19brazil/actions)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/covid19brazil)](https://cran.r-project.org/package=covid19brazil)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![License:
@@ -140,3 +141,9 @@ p <- plot_ly(data = brazil_total,
 ```
 
 <img src="figures/accumDeaths.png" width="100%" />
+
+# Moving averages and forecast
+
+<img src="figures/rollmeanCases.png" width="100%" />
+
+<img src="figures/rollmeanDeaths.png" width="100%" />
