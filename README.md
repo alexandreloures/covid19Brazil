@@ -191,3 +191,5 @@ p <- plot_ly(data = brazil_total,
 ```
 
 <img src="figures/rollmeanDeaths.png" width="100%" />
+
+# Test
