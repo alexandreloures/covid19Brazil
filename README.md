@@ -11,8 +11,8 @@
 [![License:
 Mit](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Github
-commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/AlexandreLoures/covid19Brazil/commit)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
+commit](https://img.shields.io/github/last-commit/AlexandreLoures/covid19brazil)](https://github.com/AlexandreLoures/covid19Brazil/commit/main)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/covid19brazil?color=blue)](https://cran.r-project.org/package=covid19brazil)
 <!-- badges: end -->
 
 The `covid19brazil` R package has daily information on the number of
@@ -49,7 +49,7 @@ install.packages ("covid19brazil")
 ```
 
 Or even using the command below. In the latter case, the latest version
-of the `package`will be installed.
+of the `package` will be installed.
 
 ``` r
 # install.packages ("devtools")
