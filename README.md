@@ -29,23 +29,6 @@ follows:
 -   `brazil_municipality` - Information on the new Coronavirus
     (COVID-19) for the 5,570 municipalities in Brazil
 
-The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2022-07-30).
-
-Data source: [Ministerio da Saude - Sistema Unico de Saude
-(SUS)](https://www.gov.br/saude/pt-br)
-
-<img src="man/figures/mapCases2.png" width="100%" />  
-
-In turn, the next graph shows the number of deaths accumulated in each
-Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2022-07-30).
-
-Data source: [Ministerio da Saude - Sistema Unico de Saude
-(SUS)](https://www.gov.br/saude/pt-br)
-
-<img src="man/figures/mapDeaths1.png" width="100%" />
-
 # Installation
 
 To install the `package`, one of the two standard methods for installing
@@ -102,6 +85,27 @@ head (brazil_total)
 ```
 
 # Download, read and analyze the microdata
+
+## Cases accumulated per 100,000 inhabitants
+
+The graph below shows the number of cases accumulated in each Federative
+Unit of Brazil per 100,000 inhabitants (data for the day 2022-07-30).
+
+Data source: [Ministerio da Saude - Sistema Unico de Saude
+(SUS)](https://www.gov.br/saude/pt-br)
+
+<img src="man/figures/mapCases2.png" width="100%" />
+
+## Deaths accumulated per 100,000 inhabitants
+
+In turn, the next graph shows the number of deaths accumulated in each
+Federative Unit of Brazil per 100,000 inhabitants (data for the day
+2022-07-30).
+
+Data source: [Ministerio da Saude - Sistema Unico de Saude
+(SUS)](https://www.gov.br/saude/pt-br)
+
+<img src="man/figures/mapDeaths1.png" width="100%" />
 
 ``` r
 library (ploty)
