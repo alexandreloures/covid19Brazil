@@ -90,6 +90,8 @@ The graph below shows the number of accumulated deaths per 100,000 inhabitants f
 
 <img src="man/figures/deaths100A.png" width="100%" />
 
+<!-- 
+
 ```r
 library (ploty)
 
@@ -137,6 +139,8 @@ p <- plot_ly(data = brazil_total,
 ```
 
 <img src="man/figures/accumDeaths.png" width="100%" />
+
+-->
 
 # Moving averages and forecast
 

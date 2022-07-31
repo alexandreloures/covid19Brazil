@@ -117,7 +117,9 @@ inhabitants for each of Brazil’s five macro-regions.
 
 <img src="man/figures/deaths100A.png" width="100%" />
 
-``` r
+<!-- 
+
+```r
 library (ploty)
 
 plot_ly(data = brazil_total,
@@ -142,7 +144,7 @@ plot_ly(data = brazil_total,
 
 <img src="man/figures/accumCases.png" width="100%" />
 
-``` r
+```r
 p <- plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 
@@ -164,6 +166,8 @@ p <- plot_ly(data = brazil_total,
 ```
 
 <img src="man/figures/accumDeaths.png" width="100%" />
+
+-->
 
 # Moving averages and forecast
 
