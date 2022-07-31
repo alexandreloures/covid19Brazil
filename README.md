@@ -38,7 +38,8 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 <img src="man/figures/mapCases2.png" width="100%" />  
 
 In turn, the next graph shows the number of deaths accumulated in each
-Federative Unit of Brazil per 100,000 inhabitants.
+Federative Unit of Brazil per 100,000 inhabitants (data for the day
+2022-07-30).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
