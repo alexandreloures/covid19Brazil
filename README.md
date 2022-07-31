@@ -86,6 +86,12 @@ head (brazil_total)
 
 # Download, read and analyze the microdata
 
+The purpose of this section is to analyze data on cases, deaths,
+proportions and geographic distribution on the COVID-19 pandemic in
+Brazil, made available by the [Ministerio da Saude - Sistema Unico de
+Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
+2020-01-30, when the first suspected case appeared in Brazil.
+
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
