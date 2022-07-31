@@ -169,7 +169,7 @@ p <- plot_ly(data = brazil_total,
 
 -->
 
-# Moving averages and forecast
+## Moving averages and forecast
 
 ``` r
 library (ploty)
