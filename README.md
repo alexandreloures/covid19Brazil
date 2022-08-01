@@ -100,12 +100,12 @@ Unit of Brazil per 100,000 inhabitants (data for the day 2022-07-30).
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
 
-<img src="man/figures/mapCases2.png" width="100%" />  
+<img src="man/figures/mapCases.png" width="100%" />  
 
 Below is the graph for the number of cases accumulated per 100,000
 inhabitants for each of the five macro-regions in Brazil.
 
-<img src="man/figures/cases100A.png" width="100%" />
+<img src="man/figures/cases100.png" width="100%" />
 
 ## Deaths accumulated per 100,000 inhabitants
 
@@ -116,12 +116,12 @@ Federative Unit of Brazil per 100,000 inhabitants (data for the day
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
 
-<img src="man/figures/mapDeaths1.png" width="100%" />  
+<img src="man/figures/mapDeaths.png" width="100%" />  
 
 The graph below shows the number of accumulated deaths per 100,000
 inhabitants for each of Brazil’s five macro-regions.
 
-<img src="man/figures/deaths100A.png" width="100%" />
+<img src="man/figures/deaths100.png" width="100%" />
 
 <!-- 
 
@@ -200,7 +200,7 @@ plot_ly(data = brazil_total,
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
 
-<img src="man/figures/rollmeanCases.png" width="100%" />
+<img src="man/figures/predCases.png" width="100%" />
 
 ``` r
 p <- plot_ly(data = brazil_total,
@@ -223,4 +223,4 @@ p <- plot_ly(data = brazil_total,
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
 
-<img src="man/figures/rollmeanDeaths.png" width="100%" />
+<img src="man/figures/predDeaths.png" width="100%" />
