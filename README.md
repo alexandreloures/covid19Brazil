@@ -175,9 +175,10 @@ p <- plot_ly(data = brazil_total,
 
 -->
 
-## Moving averages and forecast
+## Moving averages and forecast (Polynomial interpolation)
 
-``` r
+<!--
+```r
 library (ploty)
 
 plot_ly(data = brazil_total,
@@ -199,10 +200,18 @@ plot_ly(data = brazil_total,
          yaxis = list(title = "Number of Cases"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
+-->
 
-<img src="man/figures/predCases.png" width="100%" />
+The graph below presents the data for the number of daily new Covid-19
+cases for Brazil, a 3-day moving average, a 7-day moving average and the
+forecast, obtained by polynomial interpolation of degree 6, covering the
+entire period plus 15 days.
 
-``` r
+<img src="man/figures/predCases.png" width="100%" />  
+
+<!--
+
+```r
 p <- plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 
@@ -222,5 +231,11 @@ p <- plot_ly(data = brazil_total,
          yaxis = list(title = "Number of Deaths"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
+-->
+
+The next graph presents the data for the number of new daily deaths
+caused by Covid-19 for Brazil, a 3-day moving average, a 7-day moving
+average and the forecast, obtained by polynomial interpolation of degree
+5, covering the entire period plus 15 days.
 
 <img src="man/figures/predDeaths.png" width="100%" />
