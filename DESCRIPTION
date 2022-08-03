@@ -17,9 +17,10 @@ Encoding: UTF-8
 Language: English
 LazyData: true
 LazyDataCompression: xz
-Depends: R (>= 3.5.0)
+Depends:
+    R (>= 3.5.0),
+    devtools
 Imports:
-    devtools,
     dplyr
 Suggests:
     remotes (>= 2.1.1),
