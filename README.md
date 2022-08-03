@@ -236,6 +236,6 @@ p <- plot_ly(data = brazil_total,
 The next graph presents the data for the number of new daily deaths
 caused by Covid-19 for Brazil, a 3-day moving average, a 7-day moving
 average and the forecast, obtained by polynomial interpolation of degree
-5, covering the entire period plus 15 days.
+6, covering the entire period plus 15 days.
 
 <img src="man/figures/predDeaths.png" width="100%" />
