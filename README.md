@@ -29,6 +29,17 @@ follows:
 -   `brazil_municipality` - Information on the new Coronavirus
     (COVID-19) for the 5,570 municipalities in Brazil
 
+## Base limitation:
+
+**At the municipal level, the current day’s data may be lower than the
+previous day’s: this happens because the notification municipality is
+not necessarily the same place of residence of the notified case or
+death. Thus, upon completing the investigation process of each
+individual occurrence, the Municipal and State Health Departments have
+the autonomy to correct the information and pass it on to the Ministry
+of Health. Therefore, in all bases the current day’s data may be smaller
+than the previous day’s data.**
+
 # Installation
 
 To install the `package`, one of the two standard methods for installing
