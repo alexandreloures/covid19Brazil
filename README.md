@@ -103,10 +103,10 @@ Brazil, made available by the [Ministerio da Saude - Sistema Unico de
 Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 2020-01-30, when the first suspected case appeared in Brazil.
 
-## Cases accumulated per 100,000 inhabitants
+## Cases accumulated per 100,000 habitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2022-08-06).
+Unit of Brazil per 100,000 habitants (data for the day 2022-08-06).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -114,14 +114,14 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 <img src="man/figures/mapCases.png" width="100%" />  
 
 Below is the graph for the number of cases accumulated per 100,000
-inhabitants for each of the five macro-regions in Brazil.
+habitants for each of the five macro-regions in Brazil.
 
 <img src="man/figures/cases100.png" width="100%" />
 
-## Deaths accumulated per 100,000 inhabitants
+## Deaths accumulated per 100,000 habitants
 
 In turn, the next graph shows the number of deaths accumulated in each
-Federative Unit of Brazil per 100,000 inhabitants (data for the day
+Federative Unit of Brazil per 100,000 habitants (data for the day
 2022-08-06).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
@@ -130,7 +130,7 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 <img src="man/figures/mapDeaths.png" width="100%" />  
 
 The graph below shows the number of accumulated deaths per 100,000
-inhabitants for each of Brazil’s five macro-regions.
+habitants for each of Brazil’s five macro-regions.
 
 <img src="man/figures/deaths100.png" width="100%" />
 
