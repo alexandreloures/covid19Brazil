@@ -103,7 +103,7 @@ Brazil, made available by the [Ministerio da Saude - Sistema Unico de
 Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 2020-01-30, when the first suspected case appeared in Brazil.
 
-## Cases accumulated per 100,000 habitants
+## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
 Unit of Brazil per 100,000 inhabitants (data for the day 2022-11-04).
@@ -123,7 +123,7 @@ inhabitants for the state Minas Gerais (data for the day 2022-11-04).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
-## Deaths accumulated per 100,000 habitants
+## Deaths accumulated per 100,000 inhabitants
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
