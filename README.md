@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2022-11-04).
+Unit of Brazil per 100,000 inhabitants (data for the day 2022-11-11).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -119,7 +119,7 @@ inhabitants for each of the five macro-regions in Brazil.
 <img src="man/figures/cases100.png" width="100%" />  
 
 The next graph refers to the number of cases accumulated per 100,000
-inhabitants for the state Minas Gerais (data for the day 2022-11-04).
+inhabitants for the state Minas Gerais (data for the day 2022-11-11).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
@@ -127,7 +127,7 @@ inhabitants for the state Minas Gerais (data for the day 2022-11-04).
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2022-11-04).
+2022-11-11).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -140,7 +140,7 @@ inhabitants for each of Brazil’s five macro-regions.
 <img src="man/figures/deaths100.png" width="100%" />  
 
 The next graph refers to the number of accumulated deaths per 100,000
-inhabitants for state of Minas Gerais (data for the day 2022-11-04).
+inhabitants for state of Minas Gerais (data for the day 2022-11-11).
 
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
