@@ -29,7 +29,7 @@ follows:
 - `brazil_municipality` - Information on the new Coronavirus (COVID-19)
   for the 5,570 municipalities in Brazil
 
-## Base limitation:
+## Base limitation for municipalities (only for municipalities):
 
 **At the municipal level, the current day’s data may be lower than the
 previous day’s: this happens because the notification municipality is
@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2022-11-25).
+Unit of Brazil per 100,000 inhabitants (data for the day 2022-12-26).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -115,13 +115,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 Below is the graph for the number of cases accumulated per 100,000
 inhabitants for each of the five macro-regions in Brazil, information
-until the 2022-11-25.
+until the 2022-12-26.
 
 <img src="man/figures/cases100.png" width="100%" />  
 
 The next graph refers to the number of accumulated cases per 100,000
 inhabitants for each of the 853 municipalities in the state Minas Gerais
-(data for the day 2022-11-25).
+(data for the day 2022-12-26).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
@@ -129,7 +129,7 @@ inhabitants for each of the 853 municipalities in the state Minas Gerais
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2022-11-25).
+2022-12-26).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -138,13 +138,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 The graph below shows the number of accumulated deaths per 100,000
 inhabitants for each of Brazil’s five macro-regions, information until
-the 2022-11-25.
+the 2022-12-26.
 
-<img src="man/figures/deaths100.png" width="100%" />  
+<img src="man/figures/deaths100.png" width="100%" />  
 
 The next graph refers to the number of accumulated deaths per 100,000
 inhabitants for each of the 853 municipalities in the state of Minas
-Gerais (data for the day 2022-11-25).
+Gerais (data for the day 2022-12-26).
 
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
@@ -228,11 +228,15 @@ plot_ly(data = brazil_total,
 -->
 
 The graph below presents the data for the number of daily new Covid-19
-cases for Brazil, a 3-day moving average, a 7-day moving average and the
-forecast, obtained by polynomial interpolation of degree 5, covering the
-entire period plus 15 days (last day of observed data is 2022-11-25).
+cases, respectively, for Brazil and for the municipality of Sao Joao del
+Rey (belonging to the state of Minas Gerais), a 3-day moving average, a
+7-day moving average and the forecast, obtained by polynomial
+interpolation of degree 5, covering the entire period plus 15 days (last
+day of observed data is 2022-12-26).
 
 <img src="man/figures/predCases.png" width="100%" />  
+
+<img src="man/figures/predCases_sjdr.png" width="100%" />  
 
 <!--
 
@@ -259,9 +263,12 @@ p <- plot_ly(data = brazil_total,
 -->
 
 The next graph presents the data for the number of new daily deaths
-caused by Covid-19 for Brazil, a 3-day moving average, a 7-day moving
-average and the forecast, obtained by polynomial interpolation of degree
-5, covering the entire period plus 15 days (last day of observed data is
-2022-11-25).
+caused by Covid-19, respectively, for Brazil and for the municipality of
+Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day
+moving average, a 7-day moving average and the forecast, obtained by
+polynomial interpolation of degree 5, covering the entire period plus 15
+days (last day of observed data is 2022-12-26).
 
-<img src="man/figures/predDeaths.png" width="100%" />
+<img src="man/figures/predDeaths.png" width="100%" />  
+
+<img src="man/figures/predDeaths_sjdr.png" width="100%" />
