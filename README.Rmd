@@ -182,7 +182,7 @@ plot_ly(data = brazil_total,
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
 -->
-The graph below presents the data for the number of daily new Covid-19 cases, respectively, for Brazil and for the municipality of Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day moving average, a 7-day moving average and the forecast, obtained by polynomial interpolation of degree 5, covering the entire period plus 15 days (last day of observed data is 2022-12-26).
+The graph below presents the data for the number of daily new Covid-19 cases, respectively, for Brazil and for the municipality of Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day moving average, a 7-day moving average and the forecast, obtained by polynomial interpolation of degree 5, covering the entire period plus 15 days (last day of observed data is 2022-12-29).
 
 <img src="man/figures/predCases.png" width="100%" /> \ 
 
@@ -212,7 +212,7 @@ p <- plot_ly(data = brazil_total,
 ```
 -->
 
-The next graph presents the data for the number of new daily deaths caused by Covid-19, respectively, for Brazil and for the municipality of Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day moving average, a 7-day moving average and the forecast, obtained by polynomial interpolation of degree 5, covering the entire period plus 15 days (last day of observed data is 2022-12-26).
+The next graph presents the data for the number of new daily deaths caused by Covid-19, respectively, for Brazil and for the municipality of Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day moving average, a 7-day moving average and the forecast, obtained by polynomial interpolation of degree 5, covering the entire period plus 15 days (last day of observed data is 2022-12-29).
 
 <img src="man/figures/predDeaths.png" width="100%" /> \ 
 
