@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2022-12-30).
+Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-02).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -115,13 +115,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 Below is the graph for the number of cases accumulated per 100,000
 inhabitants for each of the five macro-regions in Brazil, information
-until the 2022-12-26.
+until the 2023-01-02.
 
 <img src="man/figures/cases100.png" width="100%" />  
 
 The next graph refers to the number of accumulated cases per 100,000
 inhabitants for each of the 853 municipalities in the state Minas Gerais
-(data for the day 2022-12-26).
+(data for the day 2023-01-02).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
@@ -129,7 +129,7 @@ inhabitants for each of the 853 municipalities in the state Minas Gerais
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2022-12-30).
+2023-01-02).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -138,13 +138,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 The graph below shows the number of accumulated deaths per 100,000
 inhabitants for each of Brazil’s five macro-regions, information until
-the 2022-12-26.
+the 2023-01-02.
 
 <img src="man/figures/deaths100.png" width="100%" />  
 
 The next graph refers to the number of accumulated deaths per 100,000
 inhabitants for each of the 853 municipalities in the state of Minas
-Gerais (data for the day 2022-12-26).
+Gerais (data for the day 2023-01-02).
 
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
@@ -232,7 +232,7 @@ cases, respectively, for Brazil and for the municipality of Sao Joao del
 Rey (belonging to the state of Minas Gerais), a 3-day moving average, a
 7-day moving average and the forecast, obtained by polynomial
 interpolation of degree 5, covering the entire period plus 15 days (last
-day of observed data is 2022-12-30).
+day of observed data is 2023-01-02).
 
 <img src="man/figures/predCases.png" width="100%" />  
 
@@ -267,7 +267,7 @@ caused by Covid-19, respectively, for Brazil and for the municipality of
 Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day
 moving average, a 7-day moving average and the forecast, obtained by
 polynomial interpolation of degree 5, covering the entire period plus 15
-days (last day of observed data is 2022-12-30).
+days (last day of observed data is 2023-01-02).
 
 <img src="man/figures/predDeaths.png" width="100%" />  
 
