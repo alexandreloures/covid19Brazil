@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-13).
+Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-20).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -129,7 +129,7 @@ inhabitants for each of the 853 municipalities in the state Minas Gerais
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2023-01-13).
+2023-01-20).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -267,7 +267,7 @@ caused by Covid-19, respectively, for Brazil and for the municipality of
 Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day
 moving average, a 7-day moving average and the forecast, obtained by
 polynomial interpolation of degree 5, covering the entire period plus 15
-days (last day of observed data is 2023-01-13).
+days (last day of observed data is 2023-01-131).
 
 <img src="man/figures/predDeaths.png" width="100%" />  
 
