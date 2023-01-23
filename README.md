@@ -115,13 +115,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 Below is the graph for the number of cases accumulated per 100,000
 inhabitants for each of the five macro-regions in Brazil, information
-until the 2023-01-13.
+until the 2023-01-20.
 
 <img src="man/figures/cases100.png" width="100%" />  
 
 The next graph refers to the number of accumulated cases per 100,000
 inhabitants for each of the 853 municipalities in the state Minas Gerais
-(data for the day 2023-01-13).
+(data for the day 2023-01-20).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
@@ -138,13 +138,13 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 The graph below shows the number of accumulated deaths per 100,000
 inhabitants for each of Brazil’s five macro-regions, information until
-the 2023-01-13.
+the 2023-01-20.
 
 <img src="man/figures/deaths100.png" width="100%" />  
 
 The next graph refers to the number of accumulated deaths per 100,000
 inhabitants for each of the 853 municipalities in the state of Minas
-Gerais (data for the day 2023-01-13).
+Gerais (data for the day 2023-01-20).
 
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
