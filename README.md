@@ -115,7 +115,7 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 Below is the graph for the number of cases accumulated per 100,000
 inhabitants for each of the five macro-regions in Brazil, information
-until the 2023-01-20.
+until the 2023-01-27.
 
 <img src="man/figures/cases100.png" width="100%" />  
 
@@ -129,7 +129,7 @@ inhabitants for each of the 853 municipalities in the state Minas Gerais
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2023-01-20).
+2023-01-27).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
