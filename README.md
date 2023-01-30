@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-20).
+Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-27).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -138,7 +138,7 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude
 
 The graph below shows the number of accumulated deaths per 100,000
 inhabitants for each of Brazil’s five macro-regions, information until
-the 2023-01-20.
+the 2023-01-27.
 
 <img src="man/figures/deaths100.png" width="100%" />  
 
