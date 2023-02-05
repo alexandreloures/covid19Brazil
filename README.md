@@ -267,7 +267,7 @@ caused by Covid-19, respectively, for Brazil and for the municipality of
 Sao Joao del Rey (belonging to the state of Minas Gerais), a 3-day
 moving average, a 7-day moving average and the forecast, obtained by
 polynomial interpolation of degree 5, covering the entire period plus 15
-days (last day of observed data is 2023-01-271).
+days (last day of observed data is 2023-01-27).
 
 <img src="man/figures/predDeaths.png" width="100%" />  
 
