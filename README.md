@@ -106,7 +106,7 @@ Saude (SUS)](https://www.gov.br/saude/pt-br). Data are available as of
 ## Cases accumulated per 100,000 inhabitants
 
 The graph below shows the number of cases accumulated in each Federative
-Unit of Brazil per 100,000 inhabitants (data for the day 2023-01-27).
+Unit of Brazil per 100,000 inhabitants (data for the day 2023-02-04).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
@@ -129,7 +129,7 @@ inhabitants for each of the 853 municipalities in the state Minas Gerais
 
 In turn, the next graph shows the number of deaths accumulated in each
 Federative Unit of Brazil per 100,000 inhabitants (data for the day
-2023-01-27).
+2023-02-04).
 
 Data source: [Ministerio da Saude - Sistema Unico de Saude
 (SUS)](https://www.gov.br/saude/pt-br)
