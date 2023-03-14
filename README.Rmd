@@ -80,7 +80,7 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude (SUS)](https://www.go
 
 <img src="man/figures/mapCases.png" width="100%" /> \ 
 
-Below is the graph for the number of cases accumulated per 100,000 inhabitants for each of the five macro-regions in Brazil, information until the 2023-02-24.
+Below is the graph for the number of cases accumulated per 100,000 inhabitants for each of the five macro-regions in Brazil, information until the 2023-03-10.
 
 <img src="man/figures/cases100.png" width="100%" /> \
 
@@ -96,7 +96,7 @@ Data source: [Ministerio da Saude - Sistema Unico de Saude (SUS)](https://www.go
 
 <img src="man/figures/mapDeaths.png" width="100%" /> \ 
 
-The graph below shows the number of accumulated deaths per 100,000 inhabitants for each of Brazil's five macro-regions, information until the 2023-02-24.
+The graph below shows the number of accumulated deaths per 100,000 inhabitants for each of Brazil's five macro-regions, information until the 2023-03-10.
 
 <img src="man/figures/deaths100.png" width="100%" /> \ 
 
