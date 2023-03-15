@@ -121,7 +121,7 @@ until the 2023-03-10.
 
 The next graph refers to the number of accumulated cases per 100,000
 inhabitants for each of the 853 municipalities in the state Minas Gerais
-(data for the day 2023-02-17).
+(data for the day 2023-03-10).
 
 <img src="man/figures/mgCases100.png" width="100%" />
 
@@ -144,7 +144,7 @@ the 2023-03-10.
 
 The next graph refers to the number of accumulated deaths per 100,000
 inhabitants for each of the 853 municipalities in the state of Minas
-Gerais (data for the day 2023-02-17).
+Gerais (data for the day 2023-03-10).
 
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
