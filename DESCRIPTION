@@ -22,6 +22,7 @@ Imports:
     devtools,
     dplyr
 Suggests:
+    knitr,
     remotes (>= 2.1.1),
     rmarkdown (>= 2.1),
     testthat (>= 2.1.0)
@@ -30,3 +31,4 @@ BugReports: https://github.com/alexandreloures/covid19brazil/issues
 RoxygenNote: 7.1.2
 NeedsCompilation: no
 Repository: CRAN
+VignetteBuilder: knitr
