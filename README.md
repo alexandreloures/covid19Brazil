@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# covid19brazil
+# covid19brazil <a href="https://rodriguesloures.com/files/html/covid19brazil/index.html"><img src="man/figures/logo.png" align="right" height="138" alt="usethis website" /></a>
 
 <!-- badges: start -->
 
@@ -149,11 +149,9 @@ Gerais (data for the day 2023-03-10).
 <img src="man/figures/mgDeaths100.png" width="100%" />
 
 <!-- 
-
-```r
+&#10;```r
 library (ploty)
-
-plot_ly(data = brazil_total,
+&#10;plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 
         name = 'Home Confinement', 
@@ -172,10 +170,8 @@ plot_ly(data = brazil_total,
          yaxis = list(title = "Number of Cases"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
-
-<img src="man/figures/accumCases.png" width="100%" />
-
-```r
+&#10;<img src="man/figures/accumCases.png" width="100%" />
+&#10;```r
 p <- plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 
@@ -195,18 +191,15 @@ p <- plot_ly(data = brazil_total,
          yaxis = list(title = "Number of Deaths"),
          xaxis = list(title = "Source: Ministerio da Saude (Sistema Unico de Saude"))
 ```
-
-<img src="man/figures/accumDeaths.png" width="100%" />
-
--->
+&#10;<img src="man/figures/accumDeaths.png" width="100%" />
+&#10;-->
 
 ## Moving averages and forecast (Polynomial interpolation)
 
 <!--
 ```r
 library (ploty)
-
-plot_ly(data = brazil_total,
+&#10;plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 
         name = 'Home Confinement', 
@@ -239,8 +232,7 @@ day of observed data is 2023-02-17).
 <img src="man/figures/predCases_sjdr.png" width="100%" />  
 
 <!--
-
-```r
+&#10;```r
 p <- plot_ly(data = brazil_total,
         x = ~ date,
         y = ~home_confinement, 

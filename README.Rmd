@@ -15,7 +15,7 @@ knitr::opts_chunk$set (
 	)
 ```
 
-# covid19brazil
+# covid19brazil <a href="https://rodriguesloures.com/files/html/covid19brazil/index.html"><img src="man/figures/logo.png" align="right" height="138" alt="usethis website" /></a>
 
 <!-- badges: start -->
 
