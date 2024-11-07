@@ -14,7 +14,6 @@ Description: Dataset with strategic information about COVID-19 in Brazil.
     Sistema Unico de Saude - SUS.
 License: MIT + file LICENSE
 Encoding: UTF-8
-Language: English
 LazyData: true
 LazyDataCompression: xz
 Depends: R (>= 3.5.0)
